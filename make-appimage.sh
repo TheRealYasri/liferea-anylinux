@@ -13,6 +13,8 @@ export ICON=/usr/share/liferea/icons/hicolor/scalable/net.sourceforge.liferea.sv
 export DESKTOP=/usr/share/applications/net.sourceforge.liferea.desktop
 export PATH_MAPPING='/usr/share/liferea:${SHARUN_DIR}/share/liferea,/usr/share/glib-2.0/schemas:${SHARUN_DIR}/share/glib-2.0/schemas'
 export DEPLOY_PYTHON=1
+export DEPLOY_GTK=1
+export DEPLOY_OPENGL=1
 
 # Deploy dependencies
 quick-sharun \
@@ -25,10 +27,8 @@ quick-sharun \
     /usr/share/glib-2.0/schemas \
     /usr/lib/libpeas-2.so* \
     /usr/lib/libwebkitgtk-6.0.so* \
-    /usr/lib/libadwaita-1.so* \
-    /usr/lib/libGLX.so* \
-    /usr/lib/libGLdispatch.so*
-    
+    /usr/lib/libadwaita-1.so*
+
 # Additional changes can be done in between here
 
 # Turn AppDir into AppImage
