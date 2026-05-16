@@ -19,6 +19,7 @@ quick-sharun \
     /usr/bin/xdg-dbus-proxy \
     /usr/lib/liferea \
     /usr/lib/libpeas-2 \
+    /usr/lib/webkitgtk-6.0 \
     /usr/share/liferea \
     /usr/share/glib-2.0/schemas \
     /usr/lib/libpeas-2.so* \
