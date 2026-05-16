@@ -23,7 +23,8 @@ quick-sharun \
     /usr/share/glib-2.0/schemas \
     /usr/lib/libpeas-2.so* \
     /usr/lib/libwebkitgtk-6.0.so* \
-    /usr/lib/libadwaita-1.so*
+    /usr/lib/libadwaita-1.so* \
+    /usr/lib/libpeas-2/loaders/libpythonloader.so*
     
 # Additional changes can be done in between here
 
