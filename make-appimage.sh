@@ -14,11 +14,11 @@ export PATH_MAPPING='/usr/share/liferea:${SHARUN_DIR}/share/liferea,/usr/share/g
 export DEPLOY_PYTHON=1
 
 # Deploy dependencies
-
 quick-sharun \
     /usr/bin/liferea \
     /usr/bin/xdg-dbus-proxy \
     /usr/lib/liferea \
+    /usr/lib/libpeas-2 \
     /usr/share/liferea \
     /usr/share/glib-2.0/schemas \
     /usr/lib/libpeas-2.so* \
