@@ -1,4 +1,5 @@
 #!/bin/sh
+
 set -eu
 
 ARCH=$(uname -m)
@@ -25,7 +26,8 @@ quick-sharun \
     /usr/lib/libpeas-2.so* \
     /usr/lib/libwebkitgtk-6.0.so* \
     /usr/lib/libadwaita-1.so* \
-    /usr/lib/libpeas-2/loaders/libpythonloader.so*
+    /usr/lib/libGLX.so* \
+    /usr/lib/libGLdispatch.so*
     
 # Additional changes can be done in between here
 
