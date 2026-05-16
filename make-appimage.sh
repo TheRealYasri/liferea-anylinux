@@ -30,6 +30,7 @@ quick-sharun \
     /usr/lib/libadwaita-1.so*
 
 # Additional changes can be done in between here
+ln -sf "libGLX.so.0" "./AppDir/shared/lib/libGLX.so.1"
 
 # Turn AppDir into AppImage
 quick-sharun --make-appimage
