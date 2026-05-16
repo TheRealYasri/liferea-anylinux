@@ -17,6 +17,7 @@ export DEPLOY_PYTHON=1
 
 quick-sharun \
     /usr/bin/liferea \
+    /usr/bin/xdg-dbus-proxy \
     /usr/lib/liferea \
     /usr/share/liferea \
     /usr/share/glib-2.0/schemas \
