@@ -11,7 +11,7 @@ pacman -Syu --noconfirm \
     glib2 gtk4 libadwaita json-glib libxml2 libxslt sqlite \
     webkitgtk-6.0 libpeas-2 python-gobject pango fribidi \
     gobject-introspection gsettings-desktop-schemas \
-    desktop-file-utils appstream intltool python-requests
+    desktop-file-utils appstream intltool python-requests xdg-dbus-proxy
 
 echo "Compiling and installing Liferea..."
 echo "---------------------------------------------------------------"
